@@ -1,7 +1,7 @@
 ﻿html {
     font-family: 'Manrope';
     font-size: 15px;
-    background-color: #2b2d42;
+    background-image: linear-gradient(#2a5596, #16386b);
 }
 body {
     margin: 150px;
@@ -21,14 +21,14 @@ h1 {
     margin: 10px;
 }
 h2 {
-    text-decoration: underline;
     text-align: center;
+    font-size: 35px;    
 }
 h3 {
     margin-left: 10px;
+    text-decoration: underline;
 }
 table {
-    border-color: #962a2a;
     margin: 15px;
 }
 th {
@@ -40,7 +40,8 @@ ul {
 }
 p{
     padding:5px;
-    margin:7.5px
+    margin:7.5px;
+    font-size: 15px;
 }
 .caption{
     font-size: 12px;
@@ -69,4 +70,7 @@ p{
 }
 #intro-image {
     width: 100%;
+}
+#pros-cons-table{
+    font-family: COCOGOOSE;
 }
