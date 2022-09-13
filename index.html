@@ -1,135 +1,35 @@
-﻿<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
+
 <head>
-    <!--This sets the web page title-->
-    <title>My Thoughts on Virtual Learning</title>
-
-    <!--This links the HTML file to the CSS file where most of the style changes have been made-->
-    <link rel="stylesheet" href="index.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ronstation</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<!--   Font import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Virtual Learning from a Student's Perspective</h1>
-
-    <!--Introductory Image with a border so it doesn't look too out of place-->
-    <div class="section" id="intro-image-border">
-        <a href="https://thenounproject.com/search/?q=virtual+learning&i=2613109"><img src="header-image.png" id="intro-image"/></a>
+    <img id="locImage" src="Wake_Up.png">
+    <div id="locText">REV Caf</div>
+  <div id="options">
+    <h1 class = "titles">Locations</h1>
+    <div id="locList">
+      <h2>Don't see your location? Add a new one here! </h2>
+      <input id="newLocation">
     </div>
+  </div>
+  <script src="script.js"></script>
 
-    <!--What will be discussed on the website-->
-    <div>
-        <h2>Synopsis</h2>
-        <p>
-        There was a global pandemic that had taken the world by surprise at the start of 2020. A virus had started in Wuhan,
-        China had reached almost every faucet of the world, travel, work, social life, education, etc. Education in particular 
-        has hit the younger generation as thousands of students are now learning in from a computer screen in their own homes. 
-        On this webpage, I, a grade 11 student, will be going over my thoughts on virtual learning and its effects on students.
-        </p>
-        <p class=caption>All images used will be linked to their respective sites</p>
-    </div>
-
-    <!--How students learn online-->
-    <div>
-        <h2>Learning</h2>
-        <p>
-        RGSS is a 1:1 school, meaning that most, if not all students in the school should have a technological 
-        device that can be used to do whatever a courses deems necessary. Because of this, the transition to virtual 
-        was not as harsh for us, because many of the resources in class were also online. Plaftforms such as 
-        <a href="https://meet.google.com/">Google Meet</a> and <a href="https://zoom.us/">Zoom</a> were used to teach classes
-        </p>
-        <p class=caption>Below is a list of the pros and cons of virtual learning from a learning aspect.</p>
-
-        <br /> 
-
-        <table border= "1" solid id="pros-cons-table">
-            <tr>
-                <!--Pros of Learning online-->
-                <th>Pros</th>
-                <td>
-                    <p>Less time moving from school to home, more time do work</p>
-                    <p>More resources online</p>
-                    <p>Easier to manage documents and other school work, paperless school work</p>
-                    <p>Extra help is easier to arrange</p>
-                </td>
-                <td>
-                    <!--Visual to show the pros of online learning-->
-                    <a href="https://pixabay.com/illustrations/multi-tasking-efficiency-manager-2840792/"><img src="https://cdn.pixabay.com/photo/2017/10/11/11/43/multi-tasking-2840792_1280.jpg" class="table-image"/></a>
-                </td>
-            </tr>
-            <tr>
-                <!--Cons of Learning online-->
-                <th>Cons</th>
-                <td>
-                    <p>Lots of time will be spend on the computer</p>
-                    <p>Harder to separate school work from hobbies</p>
-                    <p>Harder to do one-on-one teaching</p>
-                    <p>Harder to manage from a teacher's perspective</p>
-                </td>
-                <!--Visual to show the cons of online learning-->
-                <td>
-                    <a href="https://www.webmd.com/mental-health/news/20190410/parents-desperate-fight-vs-teen-screen-addiction"><img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/news/2019/04_2019/screen_addiction_2/1800x1200_screen_addiction_2.jpg" class="table-image" /></a>
-                </td>
-            </tr>
-        </table>
-    </div>
-
-    <!--How online learning affects student's social life-->
-    <div>
-        <h2>Social</h2>
-        <p>
-            While it is not their main purpose, high schools do a really good job of facilitating social connections. Students
-            that saw each other in multiple classes  in school used to interact with each other often. This can take place only as well
-            due to the fact that all students have some piece of technology allow them to connect 
-            with each other even once they leave the building. Some of these platforms include:
-        </p>
-        <ul>
-            <li><a href="https://www.snapchat.com/">Snapchat</a></li>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
-            <li><a href="https://twitter.com/home?lang=en">Twitter</a></li>
-            <li><a href="https://discord.com/brand-new">Discord</a></li>
-            <li><a href="https://www.tiktok.com/en">Tik Tok</a></li>
-        </ul>
-        <p>
-            The number of concurrent users on these platforms have 
-            <a href="https://datareportal.com/reports/digital-2020-july-global-statshot">increased drastically as a result of this lockdown</a>, 
-            and also due to the fact that it can get lonely always being in your own home.
-        </p>
-    </div>
-
-    <!--Conclusion to website-->
-    <div>
-        <h2>Final Thoughts</h2>
-        <p>
-            Virtual learning has been strongly considered even before COVID-19, and after partaking in it for over a year, here are my thoughts. 
-            Growing up in the age technology, I was initially excited to see what it would like to learn completely online. 
-            While I can't say that it was a terrible experience, there are definitely some improvements that can be made to the formatting of virtual learning.
-            Fortunately, I can confidently say that it has improved over the course of the year and there are parts of virtual learning I actual think are
-            well implimented. Here are some of my thoughts in no particular order
-        </p>
-        <br/>
-
-        <h3 id="conclusion-header">The lunch period should be reduced</h3>
-            <ul>
-                80 minutes of break time is a lot of time to eat and possibly go for a walk. Even if you go walk to your local food chain, it shouldn't take
-                more than 40 minutes to get to and from the restaurant. This time could be cut down so that there could be more time at the end of the day
-                for students to do schoolwork or other hobbies. I also heard from some of my friends in virtual school the lunch period is only 40 minutes long.
-                They should take our 20 minutes long.
-            </ul>
-
-        <h3 id="conclusion-header">Feedback days are a nice break</h3>
-            <ul>
-                I personally enjoy taking half days as they give you time to work and time to relax, unlike the weekend. I occassionly went to the extra helps that the teachers set up,
-                and it helps with students who are falling behind or if you are just hung up on one particular concept. This doesn't work for some normal classes because they cannot afford
-                to slow down.
-            </ul>
-
-        <h3 id="conclusion-header">It's very difficult to network amongst students</h3>
-            <ul>
-                The human element of socializing is seeing someone face to face and seeing their emotions change, and thay can be hard to see when everyone has their cameras off. I'm not saying
-                that everyone should be turning on their cameras, I usually like mine off as often as possible. But if you didn't have a friend group before this pandemic, it would be really hard
-                to make friends in this environment. My brother came to RGSS this year, and he said he has had trouble meeting new people. This cannot be helped as this is just how students in 
-                virtual learning are, but I hoping for the day we can return back to school and see each other. I know that some teachers would enjoy that a lot as well c:
-            </ul>
-    </div>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
 </body>
+
 </html>
